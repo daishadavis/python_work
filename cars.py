@@ -1,35 +1,39 @@
-#cars = ['bmw', 'audi', 'toyota', 'subaru']
-#cars.sort()
-#print(cars)
+#Sorting cars into aplhabetical order
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort()
+print(cars)
 
-#cars = ['bmw', 'audi', 'toyota', 'subaru']
-#cars.sort(reverse=True)
-#print(cars)
+#Sorting cars in reverse order
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort(reverse=True)
+print(cars)
 
-#cars = ['bmw', 'audi', 'toyota', 'subaru']
-#print("Here is the original list:")
-#print(cars)
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print("Here is the original list:")
+print(cars)
 
-#print("\nHere is the sorted list:")
-#print(sorted(cars))
+print("\nHere is the sorted list:")
+print(sorted(cars))
 
-#print("Here is the original list again:")
-#print(cars)
+print("Here is the original list again:")
+print(cars)
 
-#cars = ['bmw', 'audi', 'toyota', 'subaru']
-#print(cars)
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
 
-#cars.reverse()
-#print(cars)
+#Switches the order of the list
+cars.reverse()
+print(cars)
 
-#cars = ['bmw', 'audi', 'toyota', 'subaru']
-#x = len(cars)
-#print(x)
+#returning the numbers of items in a list
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+x = len(cars)
+print(x)
 
 from tkinter.font import names
 
 
-cities = ['peru', 'paris', 'london', 'spain', 'africa']
+cities = ['peru', 'paris', 'london', 'spain', 'japan']
 print(cities)
 print(sorted(cities))
 print(cities)

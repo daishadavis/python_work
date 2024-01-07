@@ -34,7 +34,7 @@ print(motorcycle)
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 
-#removing the last element fomr the list and return the value
+#removing the last element from the list and return the value
 popped_motorcycles = motorcycles.pop()
 print(motorcycles)
 print(popped_motorcycles)
@@ -51,6 +51,7 @@ print("The first motorcycle I owned was a {}".format(first_owned.title()))
 motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
 print(motorcycles)
 
+#removing a specific value from the list 
 motorcycles.remove('ducati')
 print(motorcycles)
 
@@ -87,22 +88,24 @@ guess_list.append("Penny")
 print("Welcome to my dinner party{}".format(guess_list))
 print()
 
-print("I can only invite two people")#printing only two people can come to the party
+#printing only two people who can come to the party 
+print("We can only invite two people to dinner")
 
-guess_list.pop(0)#Removing sheldon from the list
-print("I'm sorry Sheldon you can't come")
-guess_list.pop(1)#Removing amy from the list
-print("I'm sorry Amy you can't come")
-guess_list.pop(0)#Removing Elon from the list
-print("I'm sorry Elon you can't come")
-guess_list.pop(1)#Removing bill gates from the list
-print("I'm sorry Bill you can't come")
+uninvited_guest = guess_list.pop()
+print(f"{uninvited_guest}, unfortunately we have to uninvite you to dinner")
+uninvited_guest = guess_list.pop()
+print(f"{uninvited_guest},unfortunately we have to uninvite you to dinner")
+uninvited_guest = guess_list.pop()
+print(f"{uninvited_guest},unfortunately we have to uninvite you to dinner")
+uninvited_guest = guess_list.pop()
+print(f"{uninvited_guest},unfortunatelywe have to uninvite you to dinner")
 
-#deleting both items off the list
-print("{0} and {1} are still invited to the party".format(guess_list[0], guess_list[1]))
+#Who still coming to the party
+print(f"{guess_list[0]} and {guess_list[1]} you are still invited to the party")
+
+#empty list 
 del guess_list[0]
 del guess_list[0]
-
 print(guess_list)
 
 motorcycle = ['honda', 'yamaha', 'suzkui']
