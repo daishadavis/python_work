@@ -1,1 +1,1 @@
-Python practice # python_work
+Currently learning python this is where I share my progress on what I've learned so far # python_work
