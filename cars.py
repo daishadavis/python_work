@@ -28,7 +28,7 @@ print(cars)
 #returning the numbers of items in a list
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 x = len(cars)
-print(x)
+print(x) 
 
 from tkinter.font import names
 
