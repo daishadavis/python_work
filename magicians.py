@@ -14,6 +14,6 @@ print("I really like pizza!")
 
 animals = ['lion', 'tiger', 'panther']
 for animal in animals:
-    print(f"{animal.title()} is my favorite African animal!")
+    print(f"{animal.title()} is my favorite Safari animal!")
 
 print("All of these animals are jungle cats!")

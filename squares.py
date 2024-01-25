@@ -19,8 +19,8 @@ print(sum(digits))
 squares = [value**2 for value in range(1, 11)]
 print(squares)
 
-for value in range(1, 21):
-    print(value)
+for number in range(1, 21):
+    print(number)
 
 numbers = list(range(1, 1_000_001))
 print(min(numbers))
@@ -34,7 +34,7 @@ for value in range(3, 33, 3):
     print(value)
 
 for value in range(1, 11):
-    print("{} cubed is {}".format(value, value**2))
+    print(f"{value} cubed is {value**3}")
 
 squares = [value**2 for value in range(1, 11)]
 print(squares)
