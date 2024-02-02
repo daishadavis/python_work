@@ -21,7 +21,7 @@ print("Original Buffet Style Foods")
 for food in foods:
     print(food)
 
-foods = ("chicken", "pizza", "pie", "corn", "hot dog", "steak", "french fries")
+foods = ("chicken", "pizza", "pie", "corn", "hot dog", "steak", "french fries", "Korean BBQ")
 print("\nModified Buffet Foods")
 for food in foods:
     print(food)
