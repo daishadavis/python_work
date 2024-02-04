@@ -53,13 +53,14 @@ print("{} people will be coming to dinner tonight".format(count_inviations))
 
 cities = ['paris', 'london', 'africa','toyoko', 'australia']
 
+#Priniting BMW value uppercase
 cars = ['audi', 'bmw', 'subaru', 'toyota']
 for car in cars:
     if car == 'bmw':
         print(car.upper())
     else:
         print(car.title())
-#checking the value of car 
+
 
 car = 'audi'
 if car == 'audi':
