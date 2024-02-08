@@ -5,11 +5,12 @@ banned_users =['andrew', 'carolina', 'david']
 user = 'marie'
 
 if user not in banned_users:
-    print("{}, you can post a response if you wish.".format(user.title()))
+    print(f"{user.title}, you can post a response if you wish.")
 
+#Boolean Expressions
 game_active = TRUE
 can_edit = FALSE
-#Boolean Expressions
+
 
 car = 'subaru'
 print("Is car =='subaru'? I predict true.")
