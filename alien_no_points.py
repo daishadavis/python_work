@@ -29,11 +29,9 @@ glossary = {
     'string': 'sequence of characters wrapped in quotes',
     'boolean': 'truth values - either True or False',
     'list': 'mutable, order sequence of elements',
-    'tuples': 'immuable, order sequence of values'
+    'tuples': 'immuable, order sequence of values',
+    'integer': 'whole numbers',
 }
 
-print(f"String: {glossary['string']}.\n")
-print(f"Variable: {glossary['variable']}.\n")
-print(f"Boolean: {glossary['boolean']}.\n")
-print(f"List: {glossary['list']}.\n")
-print(f"Tuples: {glossary['tuples']}\n")
+for key, value in glossary.items():
+    print(f"{key.title()}: {value}")
