@@ -6,11 +6,11 @@ if requested_toppings != 'anchovies':
 age = 18
 print(age == 18)
 
-age = 19
-age > 21
-age <= 21
-age > 21
-age >= 21
+print(age == 19)
+print(age > 21)
+print(age <= 21)
+print(age > 21)
+print(age >= 21)
 
 age_0 = 22
 age_1 = 18
