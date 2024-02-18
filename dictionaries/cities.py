@@ -20,13 +20,22 @@ cities = {
     #print(f"{city.title()}'s is located in {information['country']}, has a population of {information['population']} million.")
     #print(f"Fun fact about {city.title()}: {information['fact']}.\n")
 
-prompt = "\nPlease enter the name of a city you have visited."
-prompt += "\n(Enter 'quit' when you have finished.) "
+#prompt = "\nPlease enter the name of a city you have visited."
+#prompt += "\n(Enter 'quit' when you have finished.) "
 
-while True:
-        city = input(prompt)
+#while True:
+        #city = input(prompt)
 
-        if city == 'quit':
-            break
-        else:
-            print(f"I'd love to go to {city.title()}!")
+        #if city == 'quit':
+            #break
+        #else:
+            #print(f"I'd love to go to {city.title()}!")
+
+
+def describe_city(city, country='france'):
+     """Display infomration about which country a city is in."""
+     print(f"{city.title()} is in {country.title()}") 
+
+describe_city('paris')
+describe_city('london', 'england')
+describe_city('toyko', 'japan')
