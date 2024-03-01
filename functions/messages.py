@@ -18,7 +18,7 @@ def send_messages(messages, sent_messages):
         sent_messages.append(unsent_message)
 
 
-send_messages(messages [:], sent_messages)
+send_messages(messages[:], sent_messages)
 show_messages(sent_messages)
 
 print(messages)
