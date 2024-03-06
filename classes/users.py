@@ -7,6 +7,7 @@ class User:
         self.last_name = last_name
         self.age = age
         self.location = location
+        self.login_attempts = 0
 
     def user_info(self):
         """Summarize user profile"""
@@ -17,6 +18,14 @@ class User:
     def greet_user(self):
         """Greet the user"""
         print(f"Hello {self.first_name.title()} it's nice to meet you!")
+
+    def increment_login_attempts(self):
+        """Adding one to the number of login attempts."""
+        self.login_attempts += 1
+
+    def reset_login_attempts(self):
+        """Resetting the number of login attempts to zero."""
+        self.login_attempts = 0
 
 
 
@@ -33,4 +42,11 @@ print("----")
 dana = User('dana', 'fairbanks', 25, 'los angeles')
 dana.user_info()
 dana.greet_user()
+dana.increment_login_attempts()
+dana.increment_login_attempts()
+dana.increment_login_attempts()
+dana.increment_login_attempts()
+dana.increment_login_attempts()
+dana.reset_login_attempts()
+print(f"Number of login attempts {dana.login_attempts}")
 print("---")
