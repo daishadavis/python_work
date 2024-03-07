@@ -27,26 +27,32 @@ class User:
         """Resetting the number of login attempts to zero."""
         self.login_attempts = 0
 
+class Admin:
+    """Creating and admin with special privilages"""
+
+    def __init__(self, first_name, last_name, age, location, privileges):
+        """Initalize admin class and attributes."""
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+        self.location = location
+        self.privilages = Privilages(privileges)
+
+class Privilages:
+    """Showing the privilages of an admin."""
+    def __init__(self, privilages):
+        self.privilages = privilages
+
+    def show_privilages(self):
+        """Display admin privilages"""
+        print(f"These are the admins privilages:")
+        for privilage in self.privilages:
+            print(f"-{privilage}")
 
 
-daisha = User('daisha', 'davis', 26, 'new york city')
-daisha.user_info()
-daisha.greet_user()
-print("----")
 
-charlie = User('charlie', 'puth', 32, 'los angeles')
-charlie.user_info()
-charlie.greet_user()
-print("----")
 
-dana = User('dana', 'fairbanks', 25, 'los angeles')
-dana.user_info()
-dana.greet_user()
-dana.increment_login_attempts()
-dana.increment_login_attempts()
-dana.increment_login_attempts()
-dana.increment_login_attempts()
-dana.increment_login_attempts()
-dana.reset_login_attempts()
-print(f"Number of login attempts {dana.login_attempts}")
-print("---")
+
+        
+
+

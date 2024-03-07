@@ -1,3 +1,4 @@
+"""A class that can be used to represent a car."""
 class Car:
     """A simple attempt to represent a car."""
 
@@ -33,11 +34,4 @@ class Car:
 
 
 
-my_used_car = Car('subaru', 'outback', '2015')
-print(my_used_car.get_descriptive_name())
 
-my_used_car.update_odometer(23_500)
-my_used_car.read_odometer()
-
-my_used_car.increment_odometer(100)
-my_used_car.read_odometer()
