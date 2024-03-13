@@ -1,0 +1,7 @@
+Lori Davis
+Robin
+Derek
+Daisha Davis
+Daniel Davis
+Rachel Davis
+/usr/local/bin/python3 /Users/daishadavis/Documents/python_work/files_exceptions/programmin_poll.py

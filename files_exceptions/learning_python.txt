@@ -1,6 +1,6 @@
 In Python you can use varibles to store data.
 In Python you can work with lists.
 In Python you loop thrpugh items in a list.
-In Python you can do conditional statements with if statements.
+In Python you can use conditional statements.
 In Python you can use dictionaries for storing large amounts of data.
 In Python you can use classes to represent real world things.
