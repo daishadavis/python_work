@@ -2,3 +2,7 @@ It makes me work hard
 It makes me feel cool
 It makes me work hard
 I like sharing my projects with friends
+/usr/local/bin/python3 /Users/daishadavis/Documents/python_work/files_exceptions/programmin_poll.py
+Fun
+Challenging
+Community

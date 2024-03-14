@@ -1,6 +1,6 @@
 filename = 'files_exceptions/programming_poll.txt'
 
-print("Thank you for taking our survey!")
+print("Enter a reason why you like programming.")
 print("Enter 'q' when your done with your responses.")
 
 while True:
